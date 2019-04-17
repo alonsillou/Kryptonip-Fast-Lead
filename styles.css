@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+  }
+
+
+/* LOGO */
+
+.logo {
+
+height: 30%;
+margin-top: 1em;
+margin-bottom: 16px;
+display: block;
+margin-left: 75px;
+}
+
+h1 {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    text-align: center;
+    color: #ff00d8;
+    text-shadow: 2px 2px 0px #FBFF17;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+ul {
+    list-style: none;
+    
+}
+li {
+
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 250%;
+}
+
+.cont {
+    color: yellow;
+    font-size: 28px;
+}
+
+/* FORMULARIO */
+body {
+
+    background:  linear-gradient(to right, rgba(99,14,156,1) 0%, rgba(135,7,206,1) 51%, rgba(170,0,255,1) 100%);
+    margin: 0%;
+
+}
+
+header {
+
+    background: linear-gradient(to right, rgba(255,128,193,0.5) 0%, rgba(255,209,224,0.51) 100%);
+height: 84px;
+}
+
+.contenedor {
+    width: 50%;
+}
+
+ #cuerpo{
+     
+background: #fff; 
+clear:left; 
+font:14px Helvetica,Arial,sans-serif; 
+border-radius: 7px 7px 64px 7px;
+box-shadow: 5px 6px 17px -2px rgba(0,0,0,0.38);
+padding: 20px;
+
+ }
+
+
+h2 {
+color: #d8599d;
+font-size: 2,3em;
+font-weight: bold;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-top:5%;
+margin-bottom: 5%;
+}
+
+h3 {
+
+color: skyblue;
+font-size: 1em;
+text-align: center;
+margin-bottom: 65px;
+font-size: 18px;
+letter-spacing: 1px;
+
+
+}
+
+label { 
+    position: center;
+    border-radius: 20px;
+    text-align: center; 
+    width: 100%;
+    font-size: 18px;   
+    color: #5077b7; 
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: #fff; 
+    outline:0px;
+    border: 0px;
+    border-bottom: 1px solid #70b2d1;
+    width: 77%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: skyblue;
+    font-size: 19px;
+}
+
+.button {
+
+    font-size:22px; 
+    border-radius:55px; 
+    background-image:linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(255,119,0,1) 100%);;
+      color:#fff;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px  42px 10px 42px;
+    border: 0px;
+    box-shadow: 5px 6px 17px -2px rgba(0,0,0,0.38);
+    cursor:pointer;
+    z-index: 1;
+    position: relative;
+    animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.button:before{
+    background-image:linear-gradient(to right, rgba(255,160,43,1) 0%, rgba(255,46,46,1) 100%);
+    position: absolute;
+    content: "";
+    box-shadow: 5px 6px 17px -2px rgba(0,0,0,0.48);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    transition: opacity 0.85s ease-out;
+  opacity: 0;
+  z-index: -1;
+  border-radius:55px; 
+
+
+
+}
+
+
+
+.button:hover::before {
+  opacity: 1;
+}
+
+p {
+
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    color: #d651a5;
+}
+
+#footer {
+    background: linear-gradient(to right, rgba(255,119,0,1) 0%, rgba(255,255,0,1) 100%);
+    width: auto;
+    margin: -20px;
+    border-radius: 7px 7px 0px 0px;
+    display: block;
+    margin-bottom: 15px;
+height: 10px;
+  
+}
+
+/*animacion boton atc - pulse*/
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+/*fin animacion boton atc - pulse*/
+/* FIN FORMULARIO */
+
